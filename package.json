@@ -1,0 +1,19 @@
+{
+  "name": "mockupblog",
+  "version": "1.0.0",
+  "description": "Diseño de mi Blog",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmedina2150dev/mockupBlog.git"
+  },
+  "author": "Dajan Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmedina2150dev/mockupBlog/issues"
+  },
+  "homepage": "https://github.com/dmedina2150dev/mockupBlog#readme"
+}
