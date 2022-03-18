@@ -14,4 +14,145 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     height: 100vh;
+    background-color: var(--color-primary);
+}
+
+/**************************/
+/*********GLOBALS**********/
+/**************************/
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container h2 {
+    color: var(--background-one);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.change-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.change-section img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+
+.change-section img:hover {
+    width: 63px;
+    height: 63px;
+}
+
+.fixed-bottom {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    right: 50%;
+}
+
+/**************************/
+/*********HEADER***********/
+/**************************/
+.main--header {
+    width: inherit;
+    height: 100px;
+    background-color: var(--background-two);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.main--header .icon {
+    width: 40px;
+    height: 40px;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: var(--background-three);
+}
+
+.main--header .navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.navbar a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: var(--color-secundary);
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: var(--color-secundary);
+    color: var(--background-two);
+}
+
+.main--header .footer {
+    font-size: 1rem;
+    color: var(--color-secundary);
+    font-weight: 800;
+}
+
+/**************************/
+/******MAIN CONTENT********/
+/**************************/
+
+#about {
+
+}
+#port {
+    display: none;
+    transition: all 0.5ms ease;
+}
+
+#port:target {
+    display: block;
+}
+
+.main--container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.content-img img {
+    border-radius: 5px;
+}
+
+.content {
+    margin-left: 1rem;
+}
+
+.content p {
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+    text-align: justify;
 }
