@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+:root {
+    --color-primary: #000814;
+    --color-secundary: #001D3D;
+    --background-one: #FFC300;
+    --background-two: #FFD60A;
+    --background-three: #003566;
+}
 * {
     box-sizing: border-box;
 }
@@ -8,87 +14,4 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     height: 100vh;
-}
-
-.icon {
-    width: 3rem;
-}
-
-
-.container-main {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.main--header-container {
-    max-width: 150px;
-    width: 150px;
-    height: 100vh;
-    padding: 1rem;
-    background-color: black;
-}
-
-.main-content-container {
-    padding: 1rem;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.navbar a {
-    margin-left: 1rem;
-    text-decoration: none;
-}
-
-
-
-.about-me header,
-.about-tech header,
-.about-my-experiencies header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.container-content-about-me {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-.content-img-about-me img {
-    width: 300px;
-}
-
-.content-about-me p{
-    margin: 1rem;
-}
-
-
-
-.about-tech {
-    width: 100%;
-}
-
-.about-tech .carrousell {
-    padding: .5rem;
-}
-
-.carrousell {
-    position: relative;
-}
-
-
-
-.card-portafolio {
-    max-width: 33.3%;
-}
-
-.card-portafolio img {
-    width: 200px;
 }
