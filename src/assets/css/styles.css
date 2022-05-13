@@ -119,30 +119,13 @@ a {
 /******MAIN CONTENT********/
 /**************************/
 
-#about {
-
-}
-#port {
-    display: none;
-    transition: all 0.5ms ease;
-}
-
-#port:target {
-    display: block;
-}
-
-.main--container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .container-content {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
 }
 
-.content-img img {
+.content-header img {
     border-radius: 5px;
 }
 
